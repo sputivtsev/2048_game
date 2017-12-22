@@ -17,8 +17,7 @@ public class Tile {
     }
 
     public boolean isEmpty(){
-        if(this.value==0)return true;
-        else return false;
+        return (this.value==0);
     }
 
     //возвращающий новый цвет
