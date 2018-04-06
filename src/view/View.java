@@ -1,4 +1,7 @@
-package game2048;
+package view;
+
+import controller.Controller;
+import entity.Tile;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,8 +14,8 @@ public class View extends JPanel {
 
     private Controller controller;
 
-    boolean isGameWon = false;
-    boolean isGameLost = false;
+    public boolean isGameWon = false;
+    public boolean isGameLost = false;
 
     public View(Controller controller) {
         setFocusable(true);

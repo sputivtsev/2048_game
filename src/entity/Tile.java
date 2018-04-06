@@ -1,4 +1,4 @@
-package game2048;
+package entity;
 
 import java.awt.*;
 
@@ -6,7 +6,7 @@ import java.awt.*;
  * Created by Sergey on 10.05.2017.
  */
 public class Tile {
-    int value;
+    public int value;
 
     public Tile(int value) {
         this.value = value;

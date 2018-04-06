@@ -1,4 +1,5 @@
-package game2048;
+import controller.Controller;
+import model.Model;
 
 import javax.swing.*;
 

@@ -1,4 +1,4 @@
-package game2048;
+package actions;
 
 /**
  * Created by Sergey on 24.05.2017.

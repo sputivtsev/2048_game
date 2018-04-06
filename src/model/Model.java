@@ -1,4 +1,8 @@
-package game2048;
+package model;
+
+import actions.Move;
+import actions.MoveEfficiency;
+import entity.Tile;
 
 import java.util.*;
 
@@ -8,8 +12,8 @@ import java.util.*;
 public class Model {
     private static final int FIELD_WIDTH = 4;//ширина игрового поля
     private Tile[][] gameTiles;
-    protected int score=0;
-    protected int maxTile=2;
+    public int score=0;
+    public int maxTile=2;
     private Stack<Tile[][]> previousStates=new Stack<>();
     private Stack<Integer> previousScores=new Stack<>();
     private boolean isSaveNeeded = true;
