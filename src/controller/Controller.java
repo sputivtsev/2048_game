@@ -7,9 +7,7 @@ import view.View;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-/**
- * Created by Sergey on 10.05.2017.
- */
+
 public class Controller extends KeyAdapter {
     private Model model;
     private View view;

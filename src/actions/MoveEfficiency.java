@@ -1,8 +1,5 @@
 package actions;
 
-/**
- * Created by Sergey on 24.05.2017.
- */
 public class MoveEfficiency implements Comparable<MoveEfficiency> {
     private int numberOfEmptyTiles;//кол-во пуст. клеток
     private int score;

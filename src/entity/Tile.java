@@ -2,9 +2,7 @@ package entity;
 
 import java.awt.*;
 
-/**
- * Created by Sergey on 10.05.2017.
- */
+
 public class Tile {
     public int value;
 

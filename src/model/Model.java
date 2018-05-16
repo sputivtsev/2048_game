@@ -6,9 +6,7 @@ import entity.Tile;
 
 import java.util.*;
 
-/**
- * Created by Sergey on 10.05.2017.
- */
+
 public class Model {
     private static final int FIELD_WIDTH = 4;//ширина игрового поля
     private Tile[][] gameTiles;
